@@ -12,7 +12,7 @@ h1{
     margin: 0px;
     margin-bottom: 12px;
 }
-h2{
+h4{
     font-family: 'Open Sans', sans-serif;
     text-align: left;
     font-size: 20px;
@@ -20,35 +20,20 @@ h2{
     margin-bottom: 12px;
 }
 
-
-ol{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-left: 5px;
-}
-li{
-    font-size: 14px;
-    margin-bottom: 8px;
-    display: inline-flex; /* gör om listan så att den visas som inline dvs på en rad */
-    float: left;
-    margin-right: 15px;
-    alignment: center;
-}
-.img_center{
-    margin: 0 auto; /* centrerar */
-    display: inline-block;
+main{
+    grid-area: main-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    grid-gap: 10px
 
 }
-.img_padding{
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+image a:hover{
+    text-decoration: -moz-default-background-color;
 }
 
-footer {
-  display: block;
-
-}
 
 textarea{
     font-family: 'Open Sans', sans-serif;
@@ -57,12 +42,53 @@ textarea{
     margin-bottom: 0px;
     margin-top: 0px;
     padding-bottom: 0px;
+    text-align: unset;
 
-                
 }
 
 input{
     font-family: 'Open Sans', sans-serif;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto 50px;
+    grid-template-areas:
+    "header"
+    "navigation"
+    "main-content"
+    "footer";
+    grid-gap: 20px;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+}
+
+nav{
+    grid-area: navigation;
+    display: inline;
+    flex-direction: column;
+    text-align: left/* Meny för mobil */
+
 
 }
+
+nav a{
+    flex: 1;
+    padding: 10px;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+
+
+nav a:hover{
+    text-decoration: underline;
+}
+
 

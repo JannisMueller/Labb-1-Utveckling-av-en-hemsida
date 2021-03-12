@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    color: red;
+    color: black;
 
 }
 
@@ -17,7 +17,7 @@ h1{
     font-family: 'Bebas Neue','Roboto Thin';
     font-size: 50px;
     font-weight: bold;
-    color: red;
+    color: black;
     margin-bottom: 12px;
     text-align: center;
 }
@@ -82,28 +82,7 @@ header{
     text-align: center;
 }
 
-nav{
-    grid-area: navigation;
-    display: flex;
-    flex-direction: row; /* Meny för mobil */
-    background-color: grey;
-    margin-top: 30px;
 
-}
-
-nav a{
-    color: white;
-    flex: 1;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-
-}
-
-nav a:hover{
-    text-decoration: underline;
-}
 
 
 
@@ -122,7 +101,7 @@ main article{
 
 footer{
     grid-area: footer;
-    text-align: left;
+    text-align: center;
     padding-top: 0px;
 
 
@@ -133,16 +112,6 @@ footer{
     height: auto;
 }
 
-textarea{
-
-    font-family: 'Bebas Neue', 'Roboto Thin;';
-    width: 200px;
-    height: 100px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-bottom: 0px;
-    text-align: left;
-}
 
 
 /* Tablet */

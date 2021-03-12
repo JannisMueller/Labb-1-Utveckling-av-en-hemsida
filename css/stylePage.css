@@ -2,7 +2,7 @@
 /* General */
 /* Mobile first */
 body{
-    background-color: silver;
+    background-color: white;
     color: black;
     margin: 20px;
     font-family: 'Bebas Neue','Roboto Thin';
@@ -25,7 +25,7 @@ h2{
     font-family: 'Bebas Neue','Roboto Thin';
     font-size: 40px;
     font-weight: bold;
-    color: white;
+    color: black;
     margin-bottom: 12px;
     text-align: center;
 }
@@ -55,13 +55,13 @@ h4{
 
 p{
     font-family: 'Bebas Neue, Roboto Thin';
-    color: white;
+    color: black;
     font-size: 16px;
     line-height:130%;
     padding: 0;
     margin: 0;
     margin-bottom: 7px;
-    text-align: initial;
+    text-align: center;
 }
 
 section{

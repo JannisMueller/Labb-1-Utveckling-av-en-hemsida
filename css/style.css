@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap');
 /* General */
 /* Mobile first */
 body{
@@ -54,7 +55,7 @@ h4{
 
 
 p{
-    font-family: 'Bebas Neue, Roboto Thin';
+    font-family: 'Bebas Neue';
     color: black;
     font-size: 16px;
     line-height:130%;
@@ -120,17 +121,65 @@ main article{
     padding: 10px;
 }
 
+main img:hover{
+
+    transform: scale(1.2);
+
+}
+
 footer{
+    padding-top: 80px;
     grid-area: footer;
+
+
+}
+
+div.social_list{
+    grid-area: footer;
+    padding: 10px;
+    display: flex;
+    flex-direction: row; /* Meny för mobil */
+
+}
+
+div.social_list a + a{
+    padding-left: 10px;
+}
+
+
+
+p.copyright{
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    font-size: 11px;
+    color: black;
+
+}
+
+table{
     text-align: left;
-    padding-top: 0px;
+    font-size: 14px;
+    color: black;
+    padding-top: 15px;
+}
 
-
+table td:hover{
+    text-decoration: underline;
 }
 
 .start_img{
     max-width: 100%;
     height: auto;
+}
+
+div.contact-form{
+    text-align: center;
+    padding-bottom:10px;
+    font-size: 18px;
+    color: black;
+
+
 }
 
 textarea{
@@ -140,8 +189,11 @@ textarea{
     height: 100px;
     margin-bottom: 0px;
     margin-top: 0px;
+    margin-left: 18%;
     padding-bottom: 0px;
-    text-align: left;
+    text-align: center;
+
+
 }
 
 

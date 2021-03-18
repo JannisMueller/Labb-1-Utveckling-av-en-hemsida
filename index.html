@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
 </head>
 <body>
 <section class="grid-container">
@@ -91,18 +92,47 @@
 
 
 
-            </article>
 
-            <div class = "contact-form" >
-            <h5>Do you disagree? Change my mind!</h5>
-            <form action="thankyou.html">
-                <p> <textarea>Your "opinion" here</textarea> </p>
-                <input type="submit" value="Send">
-            </form>
 
-            </div>
+            <div class="form">
+                <p>What's your list of most overrated tv shows?</p>
 
-    </main>
+                <form id="formReg">
+
+                    <p><label>1.</label> <input type="text" id="textFirst" /></p>
+                    <p><label>2.</label> <input type="text" id="textSecond" /></p>
+                    <p><label>3.</label> <input type="text" id="textThird" /></p>
+                    <p><label>4.</label> <input type="text" id="textFourth" /></p>
+                    <p><label>5.</label> <input type="text" id="textFifth" /></p>
+
+                    <p><label>Name</label> <input type="text" id="textName" /></p>
+                    <p><label>E-mail</label> <input type="text" id="textEmail" /></p>
+
+
+                    <input type="checkbox" id="terms">
+                    <label for="terms" class="checkbox"> Agree to save your personal information</label>
+                    <div id="termsHint" class="warning"></div>
+
+
+                    <p><input type="submit" value="Save my list" /></p>
+
+
+              <!--      //or suggest a show that deserves to be on the list
+                </form>
+                <p id="output"></p>
+
+                <p id="namesOutput"></p>
+                <form id="formNewName">
+                    <label>Add task: </label>
+                    <p><input type="text" id="txtName"> <input type="submit" value="Save"></p>
+                    <p id="formOutput"></p>
+                </form>
+                <p>
+                    <button id="btnShowNames">Show all tasks</button>
+                </p>-->
+
+
+        </main>
 
 
 
@@ -114,8 +144,7 @@
         <a href="index.html"><img src="img/nedladdning%20(4).png" alt="" /></a>
         <a href="index.html"><img src="img/nedladdning%20(3).png" alt="" /></a>
     </div>
-    </div>
-    </div>
+
 
     <table style="width:80%">
 
@@ -149,6 +178,6 @@
 
 
 </section>
-
+<script src="js/index.js"></script>
 </body>
 </html>

@@ -31,6 +31,8 @@ function showListOfTvShows (event){
         + "4. " + fourthPlace
         + "5. " + fifthPlace
 
+
+    elForm.reset();
     event.preventDefault();
 }
 
@@ -44,3 +46,4 @@ function checkTerms(event) {                             // Declare function
 
 elForm.addEventListener("submit", checkTerms,false);
 elForm.addEventListener("change",showListOfTvShows,false);
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns:width="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>10 Best TV shows</title>
@@ -20,123 +20,80 @@
 
         </nav>
 
+
     <h2>The 5 Most overrated TV Shows Of All Time</h2>
     <h3>which everyone likes..</h3>
-
         <main>
-        <article>
-            <a href="number1-tvshow.html"> <img src="img/House.jpg", ALT="GOT"> </a>
-        </article>
-            <article>
-
-                <p>
-                    An antisocial maverick doctor who specializes in diagnostic medicine does whatever it takes to
-                    solve puzzling cases that come his way using his crack team of doctors and his wits.
-                </p>
-
-            </article>
-
-        <article>
-            <a href="number1-tvshow.html"> <img src="img/stranger_things.jpg", ALT="Stranger things"> </a>
+        <article class="card">
+            <a href="number1-tvshow.html"> <img src="img/House.jpg", ALT="GOT" style="width: 100%" > </a>
+            <p>
+                An antisocial maverick doctor who specializes in diagnostic medicine does whatever it takes to
+                solve puzzling cases that come his way using his crack team of doctors and his wits.
+            </p>
         </article>
 
-            <article>
 
-                <p>
-                    When a young boy disappears, his mother, a police chief and his friends must
-                    confront terrifying supernatural forces in order to get him back.
-
-                </p>
-
-            </article>
-
-        <article>
-            <a href="number3-tvshow.html"><img src="img/suits.jpeg",alt = "Suits"></a>
+        <article class="card">
+            <a href="number1-tvshow.html"> <img src="img/stranger_things.jpg", ALT="Stranger things" style="width: 100%" > </a>
+            <p>
+                When a young boy disappears, his mother, a police chief and his friends must
+                confront terrifying supernatural forces in order to get him back.
+            </p>
         </article>
-            <article>
 
-                <p>
-                    On the run from a drug deal gone bad, brilliant college dropout Mike Ross,
-                    finds himself working with Harvey Specter, one of New York City's best lawyers.
+        <article class="card">
+            <a href="number3-tvshow.html"><img src="img/suits.jpeg",alt = "Suits" style="width: 100%"></a>
+            <p>
+            On the run from a drug deal gone bad, brilliant college dropout Mike Ross,
+            finds himself working with Harvey Specter, one of New York City's best lawyers.
 
-                </p>
-
-            </article>
-
-        <article>
-            <a href="number1-tvshow.html"><img src="img/westworld.jpeg",alt = "westworld"></a>
+            </p>
         </article>
-            <article>
 
-                <p>
-                    Set at the intersection of the near future and the
-                    reimagined past, explore a world in which every human appetite can be indulged without consequence.
+        <article class="card">
+            <a href="number1-tvshow.html"><img src="img/westworld.jpeg",alt = "westworld" style="width: 100%"></a>
+            <p>
+                Set at the intersection of the near future and the
+                reimagined past, explore a world in which every human appetite can be indulged without consequence.
+            </p>
 
-                </p>
-
-            </article>
-
-
-        <article>
-            <a href="number1-tvshow.html"><img src="img/got_poster.jpg",alt = "GOT"></a>
         </article>
-            <article>
 
-                <p>
-                    Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being
-                    dormant for millennia.
-
-                </p>
-
-            </article>
-
+        <article class="card">
+            <a href="number1-tvshow.html"><img src="img/got_poster.jpg",alt = "GOT" style="width: 100%"></a>
+            <p>
+                Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being
+                dormant for millennia.
+            </p>
+        </article>
 
 
+        <div class="form">
+            <p>What's your most overrated tv shows?</p>
+
+            <form id="formReg">
+
+                <p><input type="text" id="textWorstShow" placeholder="Name the show here"></p>
+                <p><input type="text" id="textName" placeholder="Your Name"></p>
+                <p><input type="text" id="textEmail" placeholder="Your Email"></p>
+
+               <p><input type="checkbox" id="terms"><label for="terms" class="checkbox"> Agree to save your personal information</label></p>
+                 </p><div class = "checked" id="termsHint" class="warning"></div>
+                 <p><input type="submit" value="Save" /></p>
+
+             <p>
+                 <button id="btnShowWorstShow">Show my worst show</button>
+             </p>
 
 
-            <div class="form">
-                <p>What's your list of most overrated tv shows?</p>
+            </form>
+            <p id="output"></p>
 
-                <form id="formReg">
-
-                    <p><label>1.</label> <input type="text" id="textFirst" /></p>
-                    <p><label>2.</label> <input type="text" id="textSecond" /></p>
-                    <p><label>3.</label> <input type="text" id="textThird" /></p>
-                    <p><label>4.</label> <input type="text" id="textFourth" /></p>
-                    <p><label>5.</label> <input type="text" id="textFifth" /></p>
-
-                    <p><label>Name</label> <input type="text" id="textName" /></p>
-                    <p><label>E-mail</label> <input type="text" id="textEmail" /></p>
-
-
-                    <input type="checkbox" id="terms">
-                    <label for="terms" class="checkbox"> Agree to save your personal information</label>
-                    <div id="termsHint" class="warning"></div>
-
-
-                    <p><input type="submit" value="Save my list" /></p>
-
-
-              <!--      //or suggest a show that deserves to be on the list
-                </form>
-                <p id="output"></p>
-
-                <p id="namesOutput"></p>
-                <form id="formNewName">
-                    <label>Add task: </label>
-                    <p><input type="text" id="txtName"> <input type="submit" value="Save"></p>
-                    <p id="formOutput"></p>
-                </form>
-                <p>
-                    <button id="btnShowNames">Show all tasks</button>
-                </p>-->
+        </div>
 
 
         </main>
-
-
-
-<footer>
+    <footer>
 
     <div class="social_list">
         <a href="index.html"><img src="img/linkedin.png" alt="" /></a>
@@ -176,9 +133,8 @@
 
 </footer>
 
-
 </section>
+
 <script src="js/index.js"></script>
-<script src="js/fetch.js"></script>
 </body>
 </html>

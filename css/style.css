@@ -62,6 +62,14 @@ section{
 
 }
 
+main{
+    grid-area: main-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+
 
 .checked{
 
@@ -88,7 +96,7 @@ header{
 nav{
     grid-area: navigation;
     display: flex;
-    flex-direction: row; /* Meny för mobil */
+    flex-direction: column; /* Meny för mobil */
     background-color: black;
     margin-top: 30px;
 
@@ -195,6 +203,10 @@ table td:hover{
         font-size:  15px;
     }
 
+    h3{
+        text-align: left;
+    }
+
     /* Centrerar grid-container och bestämmer 1000px bredd */
     section.grid-container{
         width: 1000px;
@@ -223,6 +235,10 @@ table td:hover{
         text-align: center;
     }
 
+    h2{
+        text-align: center;
+    }
+
     p{
         font-size: 14px;
     }
@@ -231,34 +247,28 @@ table td:hover{
         font-size: 15px;
     }
 
-    h3{
-
-        text-align: center;
-    }
-
 
     /* Centrerar grid-container och bestämmer 1000px bredd */
-    section.grid-container{
-        width: 1000px;
-        margin: 20px auto;
+    section{
+
+        grid-template-columns: 1fr;
+
     }
 
     header{
         text-align: left;
     }
 
+
     /* Ändrar grid columns till 1fr 1fr (2 enheter bredvid varandra) */
     main{
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
-    nav{
+    nav {
         flex-direction: row; /* Ändrar menyn till på en rad */
-        text-align: right;
-        background-color: lightgray;
+
     }
 
-    ul.social_list{ /* Döljer menyn med länkar till sociala medier */
-        display: none;
-    }
+
 }

@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap');
-/* General */
 /* Mobile first */
 body{
     background-color: #3c3c3c;
@@ -17,7 +14,6 @@ h1{
     margin-bottom: 12px;
 }
 h2{
-
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 12px;
@@ -25,12 +21,9 @@ h2{
 
 
 h3{
-
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-
-
 }
 
 a{
@@ -38,13 +31,11 @@ a{
 }
 
 p{
-
     font-size: 16px;
     line-height:130%;
     padding: 0;
     margin: 0;
     margin-bottom: 7px;
-
 }
 
 
@@ -68,7 +59,6 @@ main{
     flex-direction: row;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
-
 }
 
 
@@ -79,12 +69,10 @@ main{
 
 .form{
     grid-area: form;
-
 }
 
 .form p {
     text-align: center;
-
 }
 
 header{
@@ -92,22 +80,19 @@ header{
     padding: 10px;
     background-color: white;
     color: #000000;
-
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 nav{
     grid-area: navigation;
     display: flex;
-    flex-direction: column; /* Meny för mobil */
+    flex-direction: column;
     margin-top: 30px;
-
 }
 
 nav a{
@@ -117,24 +102,37 @@ nav a{
     text-decoration: none;
     text-transform: uppercase;
     color: #000000;
-
-
 }
 
 nav a:hover{
     text-decoration: underline;
 }
 
-
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    margin: 15px;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
+
 .card p{
     text-align: center;
+}
+
+.cardWatchInstead{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.iframe{
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -146,15 +144,11 @@ footer{
     grid-area: footer;
     background-color: white;
     color: #000000;
-
-
-
 }
 
 div.social_list{
     grid-area: footer;
     text-align: center;
-
 }
 
 div.social_list a + a{
@@ -167,9 +161,7 @@ p.copyright{
     padding-bottom: 0;
     font-size: 11px;
     color: black;
-
 }
-
 
 table{
     font-size: 14px;
@@ -181,11 +173,22 @@ table td:hover{
     text-decoration: underline;
 }
 
+.links{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
 
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    /* Ändrar storlek på fonter */
+
     h1{
         font-size: 30px;
     }
@@ -198,13 +201,9 @@ table td:hover{
         font-size:  15px;
     }
 
-    h3{
-        text-align: left;
-    }
 
-    /* Centrerar grid-container och bestämmer 1000px bredd */
     section.grid-container{
-        width: 1000px;
+        width: 800px;
         margin: 20px auto;
     }
 
@@ -212,19 +211,15 @@ table td:hover{
         text-align: center;
     }
 
-    /* Ändrar grid columns till 1fr 1fr (2 enheter bredvid varandra) */
     main{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
-    ul.social_list{ /* Döljer menyn med länkar till sociala medier */
-        display: none;
-    }
 }
 
 /* Desktop */
 @media screen and (min-width: 1025px) {
-    /* Ändrar storlek på fonter */
+
     h1{
         font-size: 30px;
         text-align: center;
@@ -242,12 +237,9 @@ table td:hover{
         font-size: 15px;
     }
 
-
-    /* Centrerar grid-container och bestämmer 1000px bredd */
     section{
-
         grid-template-columns: 1fr;
-
+        grid-template-rows: auto;
     }
 
     header{
@@ -255,13 +247,16 @@ table td:hover{
     }
 
 
-    /* Ändrar grid columns till 1fr 1fr (2 enheter bredvid varandra) */
     main{
         grid-template-columns: 1fr 1fr 1fr;
     }
 
     nav {
-        flex-direction: row; /* Ändrar menyn till på en rad */
+        flex-direction: row;
+    }
+
+    .iframe{
+        height: 100%;
 
     }
 

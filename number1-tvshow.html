@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Number 1</title>
@@ -23,36 +23,44 @@
     <aside><h2>House</h2></aside>
 
     <main>
+
+
+
         <article class="card">
-            <img src="img/House.jpg", ALT="GOT" style="width: 100%">
+            <img src="img/House.jpg", ALT="House" style="width: 100%">
             <p>
                 An antisocial maverick doctor who specializes in diagnostic medicine does whatever it takes to
                 solve puzzling cases that come his way using his crack team of doctors and his wits.
             </p>
 
-        </article>
 
+        </article>
 
         <article class="card">
 
-        <iframe
-                src="https://www.youtube.com/embed/MczMB8nU1sY"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen style="width: 100%">
-        </iframe>
+            <iframe class ="iframe"
+                    src="https://www.youtube.com/embed/MczMB8nU1sY"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+
+            </iframe>
+            <br><a href="https://www.imdb.com/title/tt0412142/"> More information </a></br>
 
         </article>
 
-        <br><a href="https://www.imdb.com/title/tt0412142/"> More information </a></br>
+        <article>
 
-        <a href="index.html"> Back to overview </a>
+            <br><p><button id="btnWatchInstead">What can I watch instead?</button></p></br>
+
+            <ul id="shows"></ul>
+
+        </article>
+
+
 
 
     </main>
-
-        <footer>
-
 
             <footer>
 
@@ -71,7 +79,6 @@
                         <td>Help</td>
                         <td>Career</td>
                         <td>Impressum</td>
-
 
                     </tr>
                     <tr>
@@ -93,11 +100,14 @@
                 <p class="copyright">© 1997-2021 NitFlix AB {666c2575-9vx1-b1ds-64895b96ghksda6} </p>
 
             </footer>
-        </footer>
+    <article>
+        <br><a href="index.html"> Back to overview </a></br>
+    </article>
+
 
 
 
         </section>
-
+<script src="js/fetch.js"></script>
 </body>
 </html>

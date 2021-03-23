@@ -47,6 +47,7 @@ p{
 section{
     display: grid;
     grid-template-columns: 1fr;
+
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
     "header"
@@ -61,10 +62,7 @@ section{
 main{
     grid-area: main-content;
     display: grid;
-    flex-direction: row;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
-
 }
 
 
@@ -126,7 +124,22 @@ nav a:hover{
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    margin: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+
+}
+
+.cardWatchInstead{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
 
 }
 .card p{
@@ -199,13 +212,10 @@ table td:hover{
         font-size:  15px;
     }
 
-    h3{
-        text-align: left;
-    }
 
     /* Centrerar grid-container och bestämmer 1000px bredd */
     section.grid-container{
-        width: 1000px;
+        width: 800px;
         margin: 20px auto;
     }
 
@@ -263,6 +273,11 @@ table td:hover{
 
     nav {
         flex-direction: row; /* Ändrar menyn till på en rad */
+
+    }
+
+    .cardWatchInstead{
+        text-align: center;
 
     }
 

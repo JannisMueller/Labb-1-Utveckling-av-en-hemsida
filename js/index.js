@@ -36,7 +36,7 @@ function saveNameAndShow (event){
 function showNameAndShow(event){
     let name = localStorage.getItem("name");
     let show = localStorage.getItem("show");
-    elOutput.textContent = "" + show +  " is the worst you know, " + name + "!"
+    elOutput.textContent = "" + show +  " is the worst TV show you know, " + name + "!"
 
     event.preventDefault();
 

@@ -2,16 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Number 1</title>
+    <title>Number 4</title>
+    <link rel="stylesheet" type="text/css" href="css/stylePage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-<h1>Stranger Things</h1>
-<section>
-    <img src="img/stranger_things_meme.jpg", ALT="Stranger things meme">
+<section class="grid-container">
+    <header>
+
+        <h1>NITFLEX</h1>
+        <img src="img/logo.png", ALT="logo" class="center">
+        <nav>
+            <a href="#">LinkedIn</a>
+            <a href="#">Github</a>
+            <a href="#">Medium</a>
+
+        </nav>
+    </header>
+    <aside><h2>Westworld</h2></aside>
+
+    <main>
+        <article class="card">
+            <img src="img/westworld.jpeg",alt = "westworld" style="width: 100%">
+            <p>
+                Set at the intersection of the near future and the
+                reimagined past, explore a world in which every human appetite can be indulged without consequence.
+            </p>
+
+        </article>
+
+
+        <article class="card">
+
+            <iframe class="iframe"
+                    src="https://www.youtube.com/embed/9BqKiZhEFFw"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+
+            </iframe>
+
+            <br><a href="https://www.imdb.com/title/tt0475784/"> More information </a></br>
+
+        </article>
+
+        <article>
+
+        <br><p><button id="btnWatchInstead">What can I watch instead?</button></p></br>
+
+        <ul id="shows"></ul>
+
+        </article>
+
+
+    </main>
+
+    <footer>
+
+            <div class="social_list">
+                <a href="index.html"><img src="img/linkedin.png" alt="" /></a>
+                <a href="index.html"><img src="img/nedladdning%20(1).png" alt="" /></a>
+                <a href="index.html"><img src="img/nedladdning%20(4).png" alt="" /></a>
+                <a href="index.html"><img src="img/nedladdning%20(3).png" alt="" /></a>
+            </div>
+
+
+            <table style="width:100%">
+
+                <tr>
+                    <td>Audio</td>
+                    <td>Help</td>
+                    <td>Career</td>
+                    <td>Impressum</td>
+
+
+                </tr>
+                <tr>
+                    <td>Privacy</td>
+                    <td>Contact</td>
+                    <td>Video</td>
+                    <td>Subscription</td>
+
+                </tr>
+                <tr>
+                    <td>Contact</td>
+                    <td>Cookies</td>
+                    <td>Audio</td>
+                    <td>Code of Conduct</td>
+                </tr>
+
+            </table>
+
+            <p class="copyright">© 1997-2021 NitFlix AB {666c2575-9vx1-b1ds-64895b96ghksda6} </p>
+
+    </footer>
+    <article> <a href="index.html"> Back to overview </a></article>
+
 </section>
-
-<a href="index.html"> Go back to list</a>
-
+<script src="js/fetch.js"></script>
 </body>
 </html>

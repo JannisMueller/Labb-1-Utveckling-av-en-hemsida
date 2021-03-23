@@ -186,6 +186,7 @@ ul{
 }
 
 
+
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
@@ -248,7 +249,8 @@ ul{
 
 
     main{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
     }
 
     nav {

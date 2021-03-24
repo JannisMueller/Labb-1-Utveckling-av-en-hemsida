@@ -11,13 +11,13 @@ function append(parent, el){
 }
 
 
-
 function fetchShows(event) {
+
 
     fetch(url)
         .then((resp) => resp.json())
         .then(function (data) {
-            let shows = data.shows;
+           let shows = data.shows;
 
             return shows.map(function (show) {
                 let li = createNode('li');

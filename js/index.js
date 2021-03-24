@@ -15,8 +15,12 @@ const elBtnShowWorstShow = document.querySelector('#btnShowWorstShow')
 function checkTerms(event) {
     if (!elCheckTerms.checked) {                                // If checkbox ticked
         elTermsHint.innerHTML = 'You must agree to the terms.'; // Show message
-        event.preventDefault();                              // Don't submit form
+        event.preventDefault();                      // Don't submit form
+    } else{
+        elTermsHint.innerHTML = '';
     }
+
+
 
 
 }

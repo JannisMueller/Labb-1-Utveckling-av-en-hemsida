@@ -1,14 +1,14 @@
-#Labb 1 - Utveckling av en hemsida med
+# Labb 1 - Utveckling av en hemsida med
 
-##HTML, CSS och Javascript**
+## HTML, CSS och Javascript**
 
-#Mål
+# Mål
 
 I Labb 1 planerar du och gör en hemsida. Den ska vara gjord med HTML, CSS, samt ha funktionalitet
 
 med Javacript. Koden ska vara validerad enligt HTML5.
 
-#Syfte
+# Syfte
 
 Studenten ska efter slutförd kurs kunna behärska HTML, CSS och Javascript. En viktigt del är att
 
@@ -18,7 +18,7 @@ Labb 1 får vi med oss kunskap i såväl HTML, CSS och Javascript som sedan är 
 
 kursen och framtida utövande.
 
-#Uppgift
+# Uppgift
 
 Du ska göra en hemsida (webbapplikation) där du själv väljer ett av dessa alternativ:
 
@@ -40,7 +40,7 @@ sparat som bild eller pdf.
 
 • Beskrivningsdelen som word/text-fil (för VG).
 
-#Betygskriterier
+# Betygskriterier
 
 <u>Krav för G</u>
 

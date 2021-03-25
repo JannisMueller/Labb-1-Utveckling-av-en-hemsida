@@ -42,7 +42,7 @@ sparat som bild eller pdf.
 
 # Betygskriterier
 
-<u>Krav för G</u>
+## Krav för G
 
 • Du ska planera hemsidan med en webbprototyp (wireframe), med penna och
 
@@ -90,9 +90,9 @@ Javascript. Du kan förutom det använda validering i HTML5.
 
 • Du ska testa att hemsidan fungerar i moderna webbläsare (Chrome, Firefox).
 
-<u>Krav för VG</u>
+# Krav för VG
 
-Utöver kraven för G:
+## Utöver kraven för G:
 
 • Hemsidan ska vara anpassad för Desktop, Tablet och mobil. Du ska skriva egna
 

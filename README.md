@@ -1,14 +1,14 @@
-**Labb 1 - Utveckling av en hemsida med**
+#Labb 1 - Utveckling av en hemsida med
 
-**HTML, CSS och Javascript**
+##HTML, CSS och Javascript**
 
-**Mål**
+#Mål
 
 I Labb 1 planerar du och gör en hemsida. Den ska vara gjord med HTML, CSS, samt ha funktionalitet
 
 med Javacript. Koden ska vara validerad enligt HTML5.
 
-**Syfte**
+#Syfte
 
 Studenten ska efter slutförd kurs kunna behärska HTML, CSS och Javascript. En viktigt del är att
 
@@ -18,15 +18,15 @@ Labb 1 får vi med oss kunskap i såväl HTML, CSS och Javascript som sedan är 
 
 kursen och framtida utövande.
 
-**Uppgift**
+#Uppgift
 
 Du ska göra en hemsida (webbapplikation) där du själv väljer ett av dessa alternativ:
 
-\- En hemsida som visar en samling av böcker, film, spel eller skivor
+• En hemsida som visar en samling av böcker, film, spel eller skivor
 
-\- En hemsida för recept
+• En hemsida för recept
 
-\- En hemsida för resmål
+• En hemsida för resmål
 
 Inlämningsuppgiften ska göras individuellt.
 
@@ -40,17 +40,7 @@ sparat som bild eller pdf.
 
 • Beskrivningsdelen som word/text-fil (för VG).
 
-**Deadline**
-
-Labb 1 ska lämnas in senast söndag 28/3 kl.23.59.
-
-Du ska lämna in en planering genom en wireframe (se ovan) senast tisdag 23/3 kl.12.00 (Det går bra
-
-att den ändras under arbetets gång, då går det bra att lämna in en uppdaterad wireframe samtidigt
-
-som inlämningen av labben).
-
-**Betygskriterier**
+#Betygskriterier
 
 <u>Krav för G</u>
 
@@ -60,9 +50,9 @@ papper eller i ett program.
 
 • Hemsidan ska minst innehålla följande delar:
 
-\- Startsida med Lista/visning på det som ska presenteras.
+• Startsida med Lista/visning på det som ska presenteras.
 
-\- Sida/sidor som presenterar utvalda skivor, recept, resmål utifrån det tema
+• Sida/sidor som presenterar utvalda skivor, recept, resmål utifrån det tema
 
 man har valt.
 
